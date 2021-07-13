@@ -1,0 +1,16 @@
+function outer_function(){
+	var varname1 = "haeoirhqsdljbof"
+	const varname2 = "alkhfoivhwesvkne"
+	let varname3 = "osudhf"
+	
+	function inner_function(){
+	console.log(varname1)
+	console.log(varname2)
+	console.log(varname3)	
+
+
+	}
+	inner_function()
+
+}
+outer_function()
